@@ -1,0 +1,131 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+
+body {
+   background-color: rgb(223, 215, 215);
+}
+
+.container {
+   background-color: rgb(255, 255, 255);
+   width: 380px;
+   height: 480px;
+   border: 1px solid rgb(255, 254, 254);
+   border-radius: 10px;
+   position: relative;
+   left: 18rem;
+   top: 8rem;
+   z-index:2;
+}
+
+.circle{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(253, 132, 146);
+  position: absolute;
+  top: 3rem;
+  left: 10rem;
+  z-index: 1;
+}
+
+.color {
+   position: absolute;
+   border-radius: 10px;
+   bottom: 3rem;
+   left: 10rem;
+   z-index: 1;
+   background-color: rgb(92, 92, 246);
+   width: 500px;
+   height: 250px;
+}
+
+.block_image {
+   position: absolute;
+   bottom: 7rem;
+   left: 25rem;
+   z-index: 1;
+}
+
+img {
+   width: 800px;
+   border-radius: 10px;
+}
+
+.title__text {
+   font-size: 40px;
+   color: rgb(92, 92, 246);
+   text-align: center;
+   padding: 10px;
+   font-weight: 800;
+}
+
+.div__form {
+   margin: 10px;
+}
+
+.form__name, .form__email, .form__massage,.form__submit {
+   margin: 10px;
+   font-weight: 500;
+}
+.label__name, .label__email, .label__massage {
+   font-size: 25px;
+}
+.input__name, .input__email, .textarea__massage {
+   width: 100%;
+   border-radius: 10px;
+   padding: 10px 12px;
+   background: rgb(213, 213, 213);
+   border: 1px solid rgb(213, 213, 213);
+}
+
+.input__name::placeholder {
+   color: white;
+   font-size: 15px;
+} 
+
+.input__email::placeholder {
+   color: white;
+   font-size: 15px;
+}
+.textarea__massage::placeholder {
+   color: white;
+   font-size: 15px;
+}
+
+.input__submit {
+   width: 340px;
+   background-color: rgb(92, 92, 246);
+   padding: 10px;
+   font-weight: 700;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid  rgb(92, 92, 246);
+  
+}
+
+#error {
+   margin: 5px auto;
+   border: 1px solid red;
+   display: none;
+   font-size: 13px;
+   text-align: center;
+   background-color: rgb(255, 15, 15);
+   color: rgb(0, 0, 0);
+   max-width: 300px;
+   border-radius: 10px;
+   font-weight: 600;
+   padding: 3px;
+}
+
+.red{
+   border-color: red;
+   border: 2px;
+}
+
+
+
